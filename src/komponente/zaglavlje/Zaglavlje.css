@@ -1,0 +1,115 @@
+.zaglavlje{
+    background-color: rgb(7, 26, 95);
+    color: rgb(197, 214, 230);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.zaglavljeContainer{
+    width: 1000px;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.ListaZaglavlja{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.ListaZaglavljaItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ListaZaglavljaItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.opisZaglavlja{
+    margin: 20px 0px;
+}
+
+.zaglavljeBtn{
+    background-color: rgb(144, 178, 191);
+    color: azure;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pretraga {
+    height: 30px;
+    background-color: rgb(165, 157, 204);
+    border: 3px solid rgba(24, 5, 149, 0.936);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.pojedinacnaPretraga{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.unosPretrage{
+    border: none;
+    outline: none;
+}
+
+.pretragaTekst{
+    color:rgb(3, 3, 57);
+    cursor: pointer;
+}
+
+.datum{
+    position: absolute;
+    top: 50px;
+}
+
+.opcije{
+    position: absolute;
+    top: 50px;
+    background-color: rgb(252, 251, 251);
+    color: rgb(22, 16, 29);
+    border-radius: 5px;
+}
+
+.opcijeItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.opcijeBrojac{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.brojac{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(8, 8, 120);
+    color: rgb(9, 9, 99);
+    cursor: pointer;
+    background-color: white;
+}
+
+.opcijeBrojac:disabled{
+    cursor: not-allowed;
+}
